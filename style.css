@@ -23,4 +23,30 @@ body {
 .rayure {
   background: repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
 }
+
+.entry-header h1 {
+  color: #556f8d;
+}
+
+.italika {
+  font-style: italic;
+}
+
+blockquote.wp-block-quote {
+  font-style: italic;
+  color: #556f8d;
+}
+
+.site-footer {
+  color: white;
+  background-color: #7e9fc5;
+}
+
+.site-info p {
+  color: white;
+}
+
+p.site-title {
+  font-style: italic;
+}
 /*# sourceMappingURL=style.css.map */

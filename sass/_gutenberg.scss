@@ -7,3 +7,28 @@
   #465298 20px
 );
 }
+.entry-header h1{
+  color: rgba($color: #556f8d, $alpha: 1.0);
+}
+
+.italika{
+  font-style: italic;
+}
+
+blockquote.wp-block-quote{
+  font-style: italic;
+  color: rgba($color: #556f8d, $alpha: 1.0);
+}
+
+.site-footer{
+  color: white;
+  background-color: rgba($color: #7e9fc5, $alpha: 1.0);
+}
+
+.site-info p{
+  color: white;
+}
+
+p.site-title{
+  font-style: italic;
+}
