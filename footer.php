@@ -20,14 +20,14 @@
 		<div class="site-info">
 			<?php $blog_info = get_bloginfo( 'name' ); ?>
 			<?php if ( ! empty( $blog_info ) ) : ?>
-				<a class="site-name" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>,
+				<p>Cours de Veille,</p>
 			<?php endif; ?>
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentynineteen' ) ); ?>" class="imprint">
+			<p>
 				<?php
 				/* translators: %s: WordPress. */
 				printf( __( 'http://localhost/mateo-ex6/', 'twentynineteen' ), 'WordPress' );
 				?>
-			</a>
+			</p>
 			<?php
 			if ( function_exists( 'the_privacy_policy_link' ) ) {
 				the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
