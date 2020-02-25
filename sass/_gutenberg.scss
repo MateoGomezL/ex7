@@ -1,11 +1,5 @@
 .rayure{
-    background: repeating-linear-gradient(
-  45deg,
-  #606dbc,
-  #606dbc 10px,
-  #465298 10px,
-  #465298 20px
-);
+  @include rayureBlanche;
 }
 .entry-header h1{
   color: rgba($color: #556f8d, $alpha: 1.0);

@@ -1,0 +1,9 @@
+@mixin rayureBlanche{
+    background: repeating-linear-gradient(
+    45deg,
+    rgb(255, 255, 255)000,
+    rgb(255, 255, 255)000 10px,
+    #556f8d 10px,
+    #556f8d 20px
+);
+}

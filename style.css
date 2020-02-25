@@ -21,7 +21,7 @@ body {
 }
 
 .rayure {
-  background: repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+  background: repeating-linear-gradient(45deg, white 0, white 0 10px, #556f8d 10px, #556f8d 20px);
 }
 
 .entry-header h1 {
