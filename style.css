@@ -120,13 +120,16 @@ p.site-title {
   font-style: italic;
 }
 
-blockquote.wp-block-quote {
+/*blockquote.wp-block-quote{
   font-style: italic;
+  color: rgba($color: #556f8d, $alpha: 1.0);
+}*/
+.CouleurChange1 {
   color: #556f8d;
 }
 
 .CouleurChange {
-  color: #2c3b4d;
+  color: #00377a;
 }
 
 .site-footer {
