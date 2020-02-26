@@ -20,12 +20,59 @@ body {
   display: none;
 }
 
+.site-info p {
+  color: white;
+}
+
+p.site-title {
+  font-style: italic;
+}
+
+@-webkit-keyframes anim1 {
+  from {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+    color: #556f8d;
+  }
+  50% {
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+    color: #2c3e52;
+  }
+  to {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+
+@keyframes anim1 {
+  from {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+    color: #556f8d;
+  }
+  50% {
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+    color: #2c3e52;
+  }
+  to {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+
 .rayure {
   background: repeating-linear-gradient(45deg, white 0, white 0 10px, #556f8d 10px, #556f8d 20px);
 }
 
 .entry-header h1 {
   color: #556f8d;
+}
+
+.entry-header h1:hover {
+  -webkit-animation: anim1 0.5s;
+          animation: anim1 0.5s;
 }
 
 .italika {
@@ -40,13 +87,5 @@ blockquote.wp-block-quote {
 .site-footer {
   color: white;
   background-color: #7e9fc5;
-}
-
-.site-info p {
-  color: white;
-}
-
-p.site-title {
-  font-style: italic;
 }
 /*# sourceMappingURL=style.css.map */

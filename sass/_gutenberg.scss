@@ -1,8 +1,25 @@
+@keyframes anim1{
+  from{
+    transform: scale(1,1);
+    color: rgba($color: #556f8d, $alpha: 1.0);
+  }
+  50%{
+    transform: scale(1.1,1.1);
+    color: rgba($color: #2c3e52, $alpha: 1.0);
+  }
+  to{
+    transform: scale(1,1);
+  }
+}
+
 .rayure{
   @include rayureBlanche;
 }
 .entry-header h1{
   color: rgba($color: #556f8d, $alpha: 1.0);
+}
+.entry-header h1:hover{
+  animation: anim1 0.5s;
 }
 
 .italika{
@@ -14,15 +31,4 @@ blockquote.wp-block-quote{
   color: rgba($color: #556f8d, $alpha: 1.0);
 }
 
-.site-footer{
-  color: white;
-  background-color: rgba($color: #7e9fc5, $alpha: 1.0);
-}
 
-.site-info p{
-  color: white;
-}
-
-p.site-title{
-  font-style: italic;
-}
