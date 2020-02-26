@@ -12,6 +12,21 @@
   }
 }
 
+@keyframes anim2{
+  from{
+    transform: rotate(0deg);
+    color: rgba($color: #000000, $alpha: 1.0);
+  }
+  50%{
+    transform: rotate(5deg);
+    color: rgba($color: #10243a, $alpha: 1.0);
+  }
+  to{
+    transform: rotate(0deg);
+    color: rgba($color: #000000, $alpha: 1.0);
+  }
+}
+
 .rayure{
   @include rayureBlanche;
 }
@@ -20,6 +35,9 @@
 }
 .entry-header h1:hover{
   animation: anim1 0.5s;
+}
+.animation2{
+  animation: anim2 1s infinite;
 }
 
 .italika{
